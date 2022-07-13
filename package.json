@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@toruslabs/eccrypto": "^1.1.8",
+    "@web3auth/base": "^1.1.0",
+    "@web3auth/ethereum-provider": "^1.1.0",
+    "@web3auth/openlogin-adapter": "^1.1.0",
+    "@web3auth/web3auth": "^1.1.0",
+    "dotenv": "^16.0.1",
     "next": "12.2.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "web3": "^1.7.4"
   },
   "devDependencies": {
     "@types/node": "18.0.0",
